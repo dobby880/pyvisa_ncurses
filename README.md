@@ -15,6 +15,10 @@ It can control ON/OFF of the respective channels by pressing a respective number
 5. check with ```pyvisa-shell``` and type ```list``` to see if your device is there
 6. If it's there, update the ```USB_PORT``` variable in the respective python file. If not, go troubleshooting your USB connection :-)
 
+## Configuration
+1. you can change the names of the Channels for better recognitions in the variable ```names``` in the respective python file
+2. You can control if a channel can be toggled on/off with the ```toggle_allowed``` variable
+
 
 ## USB Troubleshooting
 ### Keithley-2230-30-1 
